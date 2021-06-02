@@ -96,7 +96,7 @@
 			}
 	</script>
 		<form name="frmLogCall" method="post"
-			  onSubmit="return validateForm()" action="dispatch3.php">
+			  onSubmit="return validateForm()" action="dispatch.php">
 		<table>
 			<tr>
 				<td colspan="2">Log Call Panel</td>
