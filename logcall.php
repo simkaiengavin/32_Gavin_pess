@@ -27,8 +27,7 @@
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-}
-}
+}		
 	</style>
 	<?php //import nav.php
 	define('__ROOT__', dirname(dirname(__FILE__)));
@@ -60,7 +59,7 @@
 		
 	</head>
 
-	<body class="ContentStyle">
+	<body class="ContentStyle" style="background-color: aquamarine; text-align: center;">
 	<script type="text/javascript">
 			function validateForm()
 			{ //Make sure callerName is not empty
@@ -98,7 +97,7 @@
 	</script>
 		<form name="frmLogCall" method="post"
 			  onSubmit="return validateForm()" action="dispatch.php">
-		<table>
+		<table class="center">
 			<tr>
 				<td colspan="2">Log Call Panel</td>
 			</tr>

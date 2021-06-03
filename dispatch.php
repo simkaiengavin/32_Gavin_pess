@@ -103,7 +103,7 @@ if (!($stmt = $mysqli->prepare($sql)))
 		<?php } ?>
 </head>
 
-<body>
+<body style="background-color: aquamarine;">
 <?php require_once 'nav.php'; ?>
 
 	<form name="form1" method="post" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?> ">
