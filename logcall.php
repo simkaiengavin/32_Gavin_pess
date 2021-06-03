@@ -28,13 +28,14 @@
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+}
 	</style>
 	<?php //import nav.php
 	define('__ROOT__', dirname(dirname(__FILE__)));
-	require_once(__ROOT__.'\pess\nav.php');
+	require_once(__ROOT__.'\32_Gavin_pess\nav.php');
 	?>
 	<?php //Import db.php
-	require_once(__ROOT__.'\pess\db.php');
+	require_once(__ROOT__.'\32_Gavin_pess\db.php');
 
 	//Create a new connection
 	$conn = new mysqli(DB_SERVER, DB_USER, DB_PASSWORD, DB_DATABASE);
